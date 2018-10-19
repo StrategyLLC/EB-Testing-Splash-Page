@@ -1,0 +1,170 @@
+body{
+ margin: 0;
+}
+h1{
+  font-weight: 700;
+  color: #5da8dc;
+  font-size: 35px;
+  font-family: Volkhov;
+}
+h2{
+  font-weight: 700;
+  color: #22193a;
+  font-size: 35px;
+  font-family: Volkhov;
+}
+p{
+  font-family: Volkhov;
+  font-size: 17px;
+  color: #333333;
+}
+a{
+  text-decoration: none;
+  font-family: Volkhov;
+  color: #fff;
+}
+
+a:hover{
+  color: #22193a;
+}
+a.button{
+  background-color: #694993;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #fff;
+}
+a.button:hover{
+  background-color: #5da8dc;
+}
+.fullwidth{
+  background-color: #22193a;
+}
+.text-img{
+  float: right;
+  padding: 20px;
+}
+.header-inside{
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70px;
+  height: 100%;
+}
+.header-inside .header-left{
+  margin-top: 10px;
+  float: left;
+}
+.header-inside .header-right{
+  float: right;
+  margin-top: 20px;
+}
+.fullwidth .contact{
+  background-color: #EDECED;
+}
+.heroImage{
+  margin-top: 20px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.short-section{
+  width: 80%;
+  margin: 0 auto;
+}
+.contact-info{
+  display: flex;
+  justify-content: center;
+}
+.contact-info p{
+  color: #fff;
+  font-size: 21px;
+  font-family: Volkhov;
+}
+.contact-banner{
+  height: 200px;
+  height: 100%;
+  background-color: #694993;
+}
+.contact-text{
+  display: flex;
+  justify-content: center;
+}
+.contact-info{
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-around;
+}
+.infoelement {
+    min-width: 180px;
+}
+.quotes{
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+  font-style: italic;
+}
+.quote-left, .quote-right{
+  padding: 20px;
+}
+.footer-inside{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-around;
+}
+.footer-left, .footer-right{
+  padding: 20px;
+}
+.footer-right{
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 800px){
+  .header-inside{
+    text-align: center;
+  }
+  .header-inside .header-left{
+    margin-top: 0;
+    float: none;
+  }
+  .header-inside .header-right{
+    float: none;
+    margin-bottom: 20px;
+  }
+  .maintext {
+    text-align: center;
+  }
+  .text-img{
+    float: none;
+    padding: 0;
+    margin-top: 20px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .quotes {
+    display: block;
+  }
+  .contact-info {
+      display: block;
+      text-align: center;
+  }
+  .footer-inside {
+    display: block;
+    text-align: center;
+  }
+  .footer-right {
+    margin-top: 0;
+  }
+}
